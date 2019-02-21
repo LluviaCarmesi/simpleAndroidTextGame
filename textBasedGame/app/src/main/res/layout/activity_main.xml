@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTextView"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/texto_Historia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorTextView"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <Button
+        android:id="@+id/boton_Eleccion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/black"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="aumenta1"
+        android:textColor="@color/colorBotonText" />
+
+    <Button
+        android:id="@+id/boton_Eleccion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/black"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="aumenta2"
+        android:textColor="@color/colorBotonText" />
+
+    <Button
+        android:id="@+id/boton_Eleccion3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/black"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="aumenta3"
+        android:textColor="@color/colorBotonText" />
+</LinearLayout>
